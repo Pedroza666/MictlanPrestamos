@@ -1,0 +1,184 @@
+INFO - 2023-10-15 14:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:03:55 --> CSRF token verified.
+INFO - 2023-10-15 14:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:04:39 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Claudia Campos\\AppData\\Local\\Temp\\ca_5003.tmp', 16.5, 755.4330072869955, 69.7225, 69.95699271300448)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Claudia Campos\\AppData\\Local\\Temp\\ca_5003.tmp', 16.5, 16.5, 69.7225, 69.95699271300448, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\PrestamosController.php(200): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('2')
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-15 14:05:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+【Previous Exception】
+Exception
+The PHP GD extension is required, but is not installed.
+#0 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Claudi...', 16.5, 755.433007287, 69.7225, 69.956992713004)
+#1 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Claudi...', 16.5, 16.5, 69.7225, 69.956992713004, 'normal')
+#2 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\prestamos\app\Controllers\PrestamosController.php(200): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('2')
+#14 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+#15 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-15 14:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:23:17 --> The PHP GD extension is required, but is not installed.
+in VENDORPATH\dompdf\dompdf\lib\Cpdf.php on line 5813.
+ 1 VENDORPATH\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Claudia Campos\\AppData\\Local\\Temp\\ca_69F2.tmp', 16.5, 755.4330072869955, 69.7225, 69.95699271300448)
+ 2 VENDORPATH\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Claudia Campos\\AppData\\Local\\Temp\\ca_69F2.tmp', 16.5, 16.5, 69.7225, 69.95699271300448, 'normal')
+ 3 VENDORPATH\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+ 4 VENDORPATH\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+ 5 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+ 6 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+ 7 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+ 8 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+ 9 VENDORPATH\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\PrestamosController.php(200): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+15 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+16 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-15 14:23:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 260050944 bytes)
+【Previous Exception】
+Exception
+The PHP GD extension is required, but is not installed.
+#0 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Adapter\CPDF.php(669): Dompdf\Cpdf->addPngFromFile('C:\\Users\\Claudi...', 16.5, 755.433007287, 69.7225, 69.956992713004)
+#1 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer\Image.php(65): Dompdf\Adapter\CPDF->image('C:\\Users\\Claudi...', 16.5, 16.5, 69.7225, 69.956992713004, 'normal')
+#2 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(289): Dompdf\Renderer\Image->render(Object(Dompdf\FrameDecorator\Image))
+#3 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(128): Dompdf\Renderer->_render_frame('image', Object(Dompdf\FrameDecorator\Image))
+#4 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Image))
+#5 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableCell))
+#6 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRow))
+#7 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\TableRowGroup))
+#8 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Renderer.php(195): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Table))
+#9 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\FrameReflower\Page.php(149): Dompdf\Renderer->render(Object(Dompdf\FrameDecorator\Block))
+#10 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#11 C:\xampp\htdocs\prestamos\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#12 C:\xampp\htdocs\prestamos\app\Controllers\PrestamosController.php(200): Dompdf\Dompdf->render()
+#13 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+#14 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+#15 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#17 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-15 14:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:47 --> CSRF token verified.
+INFO - 2023-10-15 14:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:41:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:41:32 --> CSRF token verified.
+INFO - 2023-10-15 14:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:41:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:44:26 --> Undefined array key "cliente"
+in APPPATH\Controllers\PrestamosController.php on line 254.
+ 1 APPPATH\Controllers\PrestamosController.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 254)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-15 14:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:49:47 --> Undefined array key "cliente"
+in APPPATH\Controllers\PrestamosController.php on line 255.
+ 1 APPPATH\Controllers\PrestamosController.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-15 14:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:50:26 --> Undefined array key "cliente"
+in APPPATH\Controllers\PrestamosController.php on line 255.
+ 1 APPPATH\Controllers\PrestamosController.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 255)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-15 14:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:56:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 14:57:39 --> Cannot access offset of type string on string
+in APPPATH\Controllers\PrestamosController.php on line 256.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->reporte('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-15 14:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 14:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:03:17 --> CSRF token verified.
+INFO - 2023-10-15 15:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-15 15:03:17 --> Trying to access array offset on value of type bool
+in APPPATH\Controllers\PrestamosController.php on line 311.
+ 1 APPPATH\Controllers\PrestamosController.php(311): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type bool', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 311)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('14')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-15 15:06:50 --> CSRF token verified.
+INFO - 2023-10-15 15:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:14:08 --> CSRF token verified.
+INFO - 2023-10-15 15:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-15 15:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

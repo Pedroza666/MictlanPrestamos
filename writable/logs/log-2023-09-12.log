@@ -1,0 +1,140 @@
+INFO - 2023-09-12 19:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 19:28:42 --> CSRF token verified.
+INFO - 2023-09-12 19:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 19:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 19:42:15 --> mysqli_sql_exception: Can't create database 'prestamos'; database exists in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\xampp\htdocs\prestamos\system\Database\Forge.php(230): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\xampp\htdocs\prestamos\system\Commands\Database\CreateDatabase.php(137): CodeIgniter\Database\Forge->createDatabase('prestamos')
+#5 C:\xampp\htdocs\prestamos\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\xampp\htdocs\prestamos\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\xampp\htdocs\prestamos\spark(97): CodeIgniter\CLI\Console->run()
+#8 {main}
+INFO - 2023-09-12 20:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:04:23 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:04:23 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ClientesController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:07:00 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:07:00 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ClientesController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:13:15 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:13:15 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ClientesController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:18:22 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:18:22 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ClientesController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:19:43 --> CSRF token verified.
+INFO - 2023-09-12 20:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:27:52 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:27:53 --> Call to a member function isValid() on null
+in APPPATH\Controllers\ClientesController.php on line 147.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:30:14 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:30:14 --> unlink(C:\xampp\htdocs\prestamos\writable\uploads/clientes/identificacion_1694567983.jpg): No such file or directory
+in APPPATH\Controllers\ClientesController.php on line 138.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\prestamos\\writable\\uploads/clientes/identificacion_1694567983.jpg): No such file or directory', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 138)
+ 2 APPPATH\Controllers\ClientesController.php(138): unlink('C:\\xampp\\htdocs\\prestamos\\writable\\uploads/clientes/identificacion_1694567983.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:31:36 --> CSRF token verified.
+CRITICAL - 2023-09-12 20:31:36 --> Undefined array key "foto_garantia"
+in APPPATH\Controllers\ClientesController.php on line 244.
+ 1 APPPATH\Controllers\ClientesController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "foto_garantia"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->delete('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-12 20:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:33:21 --> CSRF token verified.
+INFO - 2023-09-12 20:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:33:53 --> CSRF token verified.
+INFO - 2023-09-12 20:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:36:46 --> CSRF token verified.
+INFO - 2023-09-12 20:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:38:53 --> CSRF token verified.
+INFO - 2023-09-12 20:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:54:02 --> CSRF token verified.
+INFO - 2023-09-12 20:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 20:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:11:52 --> CSRF token verified.
+INFO - 2023-09-12 21:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 21:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:28:22 --> CSRF token verified.
+INFO - 2023-09-12 22:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:30:26 --> CSRF token verified.
+INFO - 2023-09-12 22:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:33:40 --> CSRF token verified.
+INFO - 2023-09-12 22:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:34:42 --> CSRF token verified.
+INFO - 2023-09-12 22:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 22:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:17:17 --> CSRF token verified.
+INFO - 2023-09-12 23:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 23:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

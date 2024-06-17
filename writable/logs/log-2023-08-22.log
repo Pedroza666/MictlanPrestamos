@@ -1,0 +1,233 @@
+INFO - 2023-08-22 00:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:07:33 --> CSRF token verified.
+INFO - 2023-08-22 00:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:12 --> CSRF token verified.
+INFO - 2023-08-22 00:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:44 --> CSRF token verified.
+INFO - 2023-08-22 00:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 00:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:27:47 --> CSRF token verified.
+INFO - 2023-08-22 18:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-22 18:28:54 --> Call to a member function where() on null
+in APPPATH\Controllers\UsuariosController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->new()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 18:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:47 --> CSRF token verified.
+INFO - 2023-08-22 18:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:47 --> CSRF token verified.
+INFO - 2023-08-22 18:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 18:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-22 18:43:48 --> Call to a member function where() on null
+in APPPATH\Controllers\UsuariosController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->new()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-22 18:44:10 --> Call to a member function where() on null
+in APPPATH\Controllers\UsuariosController.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->new()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:37:03 --> CSRF token verified.
+CRITICAL - 2023-08-22 19:37:04 --> Call to a member function where() on null
+in APPPATH\Controllers\UsuariosController.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:44:41 --> CSRF token verified.
+ERROR - 2023-08-22 19:44:41 --> mysqli_sql_exception: Column 'telefono' cannot be null in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-22 19:44:41 --> Column 'telefono' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$kPd5GSfvV73hgTYmfIoMIeytezRU1hn5YRfXzdXzQQVtTejSFPSDO\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$kPd5GSfvV73hgTYmfIoMIeytezRU1hn5YRfXzdXzQQVtTejSFPSDO\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$kPd5GSfvV73hgTYmfIoMIeytezRU1hn5YRfXzdXzQQVtTejSFPSDO\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (:nombre:, :apellido:, :telefono:, :correo:, :direccion:, :clave:, :id_rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:45:33 --> CSRF token verified.
+ERROR - 2023-08-22 19:45:33 --> mysqli_sql_exception: Column 'telefono' cannot be null in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-22 19:45:33 --> Column 'telefono' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$a44onrJhYboR5IZxsBTvD.bCSwuoW6.xjB/C1pII/PJIEjy9fDqNy\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$a44onrJhYboR5IZxsBTvD.bCSwuoW6.xjB/C1pII/PJIEjy9fDqNy\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', NULL, NULL, \'leon\', \'$2y$10$a44onrJhYboR5IZxsBTvD.bCSwuoW6.xjB/C1pII/PJIEjy9fDqNy\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (:nombre:, :apellido:, :telefono:, :correo:, :direccion:, :clave:, :id_rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:45:47 --> CSRF token verified.
+ERROR - 2023-08-22 19:45:47 --> mysqli_sql_exception: Column 'correo' cannot be null in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-22 19:45:47 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$vyYdtu0yJKirgMFRE4mQXuksGM36wVZ8zsseQHzwbnHJE2UXKyUi6\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$vyYdtu0yJKirgMFRE4mQXuksGM36wVZ8zsseQHzwbnHJE2UXKyUi6\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$vyYdtu0yJKirgMFRE4mQXuksGM36wVZ8zsseQHzwbnHJE2UXKyUi6\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (:nombre:, :apellido:, :telefono:, :correo:, :direccion:, :clave:, :id_rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:46:10 --> CSRF token verified.
+ERROR - 2023-08-22 19:46:10 --> mysqli_sql_exception: Column 'correo' cannot be null in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-22 19:46:10 --> Column 'correo' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$ha9fIJ3f8t74Ff.y79ujy.9Fi5hZnpESGXoLoMVwY2t3si3JHB4Wi\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$ha9fIJ3f8t74Ff.y79ujy.9Fi5hZnpESGXoLoMVwY2t3si3JHB4Wi\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (\'leon\', \'leon\', \'9849894\', NULL, \'leon\', \'$2y$10$ha9fIJ3f8t74Ff.y79ujy.9Fi5hZnpESGXoLoMVwY2t3si3JHB4Wi\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`) VALUES (:nombre:, :apellido:, :telefono:, :correo:, :direccion:, :clave:, :id_rol:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:46:50 --> CSRF token verified.
+INFO - 2023-08-22 19:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 19:56:08 --> CSRF token verified.
+INFO - 2023-08-22 19:59:18 --> CSRF token verified.
+ERROR - 2023-08-22 19:59:19 --> mysqli_sql_exception: Duplicate entry '9849894' for key 'telefono' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-22 19:59:19 --> Duplicate entry '9849894' for key 'telefono'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`, `created_at`, `updated_at`) VALUES (\'leonsss\', \'leons\', \'9849894\', \'leons@gmail.com\', \'mexico\', \'$2y$10$L2/yE27o.gzQjoKQO1qiSOtfUlStRInUiX0BuLpwOu9WgFFvVgKqq\', 1, \'2023-08-22 19:59:19\', \'2023-08-22 19:59:19\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`, `created_at`, `updated_at`) VALUES (\'leonsss\', \'leons\', \'9849894\', \'leons@gmail.com\', \'mexico\', \'$2y$10$L2/yE27o.gzQjoKQO1qiSOtfUlStRInUiX0BuLpwOu9WgFFvVgKqq\', 1, \'2023-08-22 19:59:19\', \'2023-08-22 19:59:19\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`, `created_at`, `updated_at`) VALUES (\'leonsss\', \'leons\', \'9849894\', \'leons@gmail.com\', \'mexico\', \'$2y$10$L2/yE27o.gzQjoKQO1qiSOtfUlStRInUiX0BuLpwOu9WgFFvVgKqq\', 1, \'2023-08-22 19:59:19\', \'2023-08-22 19:59:19\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `telefono`, `correo`, `direccion`, `clave`, `id_rol`, `created_at`, `updated_at`) VALUES (:nombre:, :apellido:, :telefono:, :correo:, :direccion:, :clave:, :id_rol:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UsuariosController.php(50): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\UsuariosController->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsuariosController))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-22 19:59:33 --> CSRF token verified.
+INFO - 2023-08-22 20:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 20:06:03 --> CSRF token verified.
+INFO - 2023-08-22 20:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 20:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-22 20:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,79 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding/border are included in element's total width/height */
+  }
+  body {
+    font-family: 'Arial', sans-serif; /* Modern, professional font */
+    padding: 20px;
+    background-color: #f8f8f8; /* Subtle off-white background */
+  }
+  table {
+    width: 100%;
+    margin-bottom: 20px; /* Increased spacing for better readability */
+    border-collapse: collapse; /* Remove extra space between table cells */
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border */
+  }
+  
+  /* Logo and Company Info */
+  .logo img {
+    width: 100%; /* Adjusted for a more balanced look */
+    margin-bottom: 10px;
+  }
+  .info-empresa {
+    width: 60%; /* Adjusted for a more balanced look */
+    text-align: center;
+  }
+  
+  /* Headers and Titles */
+  h1, h2, h3 {
+    color: #552582; /* Darker purple for headings */
+    margin-bottom: 10px;
+  }
+  .contrato {
+    background-color: #8e44ad; /* Main purple color */
+    color: white;
+    padding: 4px; /* Slightly increased padding */
+    border-radius: 5px 5px 0 0;
+    font-weight: bold;
+  }
+  
+  /* Table Styling */
+  .container-cliente {
+    background-color: rgba(142, 68, 173, 0.1); /* Very subtle purple background */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  #container-info {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+  }
+  #container-cuotas th {
+    background-color: #8e44ad; /* Main purple color */
+    color: white;
+  }
+  
+  /* Other Styles */
+  .mensaje {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #552582; /* Darker purple for the message */
+  }
+  .text-right { text-align: right; }
+  .text-center { text-align: center; }
+  .text-left { text-align: left; }
+  .bg-danger { background-color: #e74c3c; } /* Red for danger */
+  .bg-warning { background-color: #f1c40f; } /* Yellow for warning */
+  .text-success { color: #2ecc71; } /* Green for success */
+  .text-danger { color: #e74c3c; } /* Red for danger */
+  

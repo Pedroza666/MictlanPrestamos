@@ -1,0 +1,244 @@
+INFO - 2023-09-09 19:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-09 19:39:30 --> Call to undefined function set_value()
+in APPPATH\Views\clientes\nuevo.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('clientes/nuevo', [], true)
+ 4 APPPATH\Controllers\ClientesController.php(30): view('clientes/nuevo')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->new()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 19:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 19:43:49 --> CSRF token verified.
+ERROR - 2023-09-09 19:43:49 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(115): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-09 19:43:50 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694306629.\', \'domicilio_1694306629.\', \'garantia_1694306629.\', \'cliente_1694306629.\', \'2023-09-09 19:43:49\', \'2023-09-09 19:43:49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694306629.\', \'domicilio_1694306629.\', \'garantia_1694306629.\', \'cliente_1694306629.\', \'2023-09-09 19:43:49\', \'2023-09-09 19:43:49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694306629.\', \'domicilio_1694306629.\', \'garantia_1694306629.\', \'cliente_1694306629.\', \'2023-09-09 19:43:49\', \'2023-09-09 19:43:49\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(115): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 19:44:24 --> CSRF token verified.
+INFO - 2023-09-09 19:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 19:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:01:20 --> CSRF token verified.
+INFO - 2023-09-09 20:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:02:29 --> CSRF token verified.
+INFO - 2023-09-09 20:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:10:28 --> CSRF token verified.
+INFO - 2023-09-09 20:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:11:12 --> CSRF token verified.
+INFO - 2023-09-09 20:11:44 --> CSRF token verified.
+INFO - 2023-09-09 20:11:44 --> CSRF token verified.
+INFO - 2023-09-09 20:11:45 --> CSRF token verified.
+INFO - 2023-09-09 20:13:10 --> CSRF token verified.
+INFO - 2023-09-09 20:13:31 --> CSRF token verified.
+INFO - 2023-09-09 20:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:25:14 --> CSRF token verified.
+INFO - 2023-09-09 20:26:34 --> CSRF token verified.
+INFO - 2023-09-09 20:27:12 --> CSRF token verified.
+INFO - 2023-09-09 20:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:29:39 --> CSRF token verified.
+INFO - 2023-09-09 20:39:13 --> CSRF token verified.
+INFO - 2023-09-09 20:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:45:00 --> CSRF token verified.
+INFO - 2023-09-09 20:45:45 --> CSRF token verified.
+INFO - 2023-09-09 20:45:46 --> CSRF token verified.
+INFO - 2023-09-09 20:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:55:47 --> CSRF token verified.
+INFO - 2023-09-09 20:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 20:59:31 --> CSRF token verified.
+INFO - 2023-09-09 21:03:00 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:03:00 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 115.
+ 1 APPPATH\Controllers\ClientesController.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:03:05 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:03:05 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 115.
+ 1 APPPATH\Controllers\ClientesController.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:05:08 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:05:08 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 116.
+ 1 APPPATH\Controllers\ClientesController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:05:53 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:05:53 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 116.
+ 1 APPPATH\Controllers\ClientesController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:08:44 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:08:44 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 117.
+ 1 APPPATH\Controllers\ClientesController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:09:25 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:09:25 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 117.
+ 1 APPPATH\Controllers\ClientesController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:10:02 --> CSRF token verified.
+CRITICAL - 2023-09-09 21:10:02 --> Undefined array key "errors"
+in APPPATH\Controllers\ClientesController.php on line 117.
+ 1 APPPATH\Controllers\ClientesController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "errors"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\ClientesController.php', 117)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 21:12:17 --> CSRF token verified.
+INFO - 2023-09-09 21:13:01 --> CSRF token verified.
+INFO - 2023-09-09 21:13:07 --> CSRF token verified.
+INFO - 2023-09-09 21:13:34 --> CSRF token verified.
+INFO - 2023-09-09 21:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:14:30 --> CSRF token verified.
+INFO - 2023-09-09 21:15:45 --> CSRF token verified.
+INFO - 2023-09-09 21:17:02 --> CSRF token verified.
+INFO - 2023-09-09 21:19:12 --> CSRF token verified.
+INFO - 2023-09-09 21:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:21:25 --> CSRF token verified.
+INFO - 2023-09-09 21:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:26:31 --> CSRF token verified.
+INFO - 2023-09-09 21:26:59 --> CSRF token verified.
+INFO - 2023-09-09 21:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:40:03 --> CSRF token verified.
+INFO - 2023-09-09 21:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:41:51 --> CSRF token verified.
+INFO - 2023-09-09 21:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 21:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:04:52 --> CSRF token verified.
+INFO - 2023-09-09 22:05:22 --> CSRF token verified.
+INFO - 2023-09-09 22:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:05:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:26:05 --> CSRF token verified.
+INFO - 2023-09-09 22:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:32:14 --> CSRF token verified.
+INFO - 2023-09-09 22:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:43:57 --> CSRF token verified.
+INFO - 2023-09-09 22:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:46:53 --> CSRF token verified.
+INFO - 2023-09-09 22:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:53:08 --> CSRF token verified.
+INFO - 2023-09-09 22:53:40 --> CSRF token verified.
+INFO - 2023-09-09 22:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:58:32 --> CSRF token verified.
+INFO - 2023-09-09 22:59:35 --> CSRF token verified.
+INFO - 2023-09-09 22:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 22:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:14:18 --> CSRF token verified.
+CRITICAL - 2023-09-09 23:14:18 --> No hay datos para update
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\ClientesController.php(86): CodeIgniter\Model->update(30, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 23:17:57 --> CSRF token verified.
+INFO - 2023-09-09 23:18:57 --> CSRF token verified.
+ERROR - 2023-09-09 23:18:57 --> mysqli_sql_exception: Duplicate entry '98698686986' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(53): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-09 23:18:57 --> Duplicate entry '98698686986' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `created_at`, `updated_at`) VALUES (\'ppojpjpojpojop\', \'98698686986\', \'Prueba de funcionamieto\', \'kjbjbkjbkjbkbkjbk\', \'7766455383\', \'gsssss@g.com\', \'oioihoihohojijpoihoi\', \'ojpojpojpoj\', \'pojpojpojpoj\', \'097070709790\', \'2023-09-09 23:18:57\', \'2023-09-09 23:18:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `created_at`, `updated_at`) VALUES (\'ppojpjpojpojop\', \'98698686986\', \'Prueba de funcionamieto\', \'kjbjbkjbkjbkbkjbk\', \'7766455383\', \'gsssss@g.com\', \'oioihoihohojijpoihoi\', \'ojpojpojpoj\', \'pojpojpojpoj\', \'097070709790\', \'2023-09-09 23:18:57\', \'2023-09-09 23:18:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `created_at`, `updated_at`) VALUES (\'ppojpjpojpojop\', \'98698686986\', \'Prueba de funcionamieto\', \'kjbjbkjbkjbkbkjbk\', \'7766455383\', \'gsssss@g.com\', \'oioihoihohojijpoihoi\', \'ojpojpojpoj\', \'pojpojpojpoj\', \'097070709790\', \'2023-09-09 23:18:57\', \'2023-09-09 23:18:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(53): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-09 23:20:11 --> CSRF token verified.
+INFO - 2023-09-09 23:20:53 --> CSRF token verified.
+INFO - 2023-09-09 23:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-09 23:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

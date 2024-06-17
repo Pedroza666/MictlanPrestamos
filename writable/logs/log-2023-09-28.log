@@ -1,0 +1,327 @@
+INFO - 2023-09-28 18:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:46:45 --> CSRF token verified.
+INFO - 2023-09-28 18:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 18:56:59 --> CSRF token verified.
+INFO - 2023-09-28 18:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 18:56:59 --> Undefined array key "id_cliente"
+in APPPATH\Controllers\PrestamosController.php on line 212.
+ 1 APPPATH\Controllers\PrestamosController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 18:58:07 --> CSRF token verified.
+INFO - 2023-09-28 18:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 18:58:07 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\PrestamosController.php on line 219.
+ 1 APPPATH\Controllers\PrestamosController.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 219)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 18:58:17 --> CSRF token verified.
+INFO - 2023-09-28 18:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 18:58:17 --> Undefined array key "id_cliente"
+in APPPATH\Controllers\PrestamosController.php on line 212.
+ 1 APPPATH\Controllers\PrestamosController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:02:06 --> CSRF token verified.
+INFO - 2023-09-28 19:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:02:06 --> Undefined array key "id_cliente"
+in APPPATH\Controllers\PrestamosController.php on line 217.
+ 1 APPPATH\Controllers\PrestamosController.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 217)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:03:15 --> CSRF token verified.
+INFO - 2023-09-28 19:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:03:47 --> CSRF token verified.
+INFO - 2023-09-28 19:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:04:52 --> CSRF token verified.
+INFO - 2023-09-28 19:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:05:05 --> CSRF token verified.
+INFO - 2023-09-28 19:05:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:09:35 --> CSRF token verified.
+INFO - 2023-09-28 19:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:09:35 --> Undefined array key "id_cliente"
+in APPPATH\Controllers\PrestamosController.php on line 221.
+ 1 APPPATH\Controllers\PrestamosController.php(221): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_cliente"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 221)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('6')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:12:31 --> CSRF token verified.
+INFO - 2023-09-28 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:13:56 --> CSRF token verified.
+INFO - 2023-09-28 19:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:16:12 --> CSRF token verified.
+INFO - 2023-09-28 19:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:16:38 --> CSRF token verified.
+INFO - 2023-09-28 19:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:17:15 --> CSRF token verified.
+INFO - 2023-09-28 19:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:28:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\prestamos\detail.php on line 23.
+ 1 APPPATH\Views\prestamos\detail.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\prestamos\\app\\Views\\prestamos\\detail.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\prestamos\\app\\Views\\prestamos\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('prestamos/detail', [], true)
+ 5 APPPATH\Controllers\PrestamosController.php(166): view('prestamos/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:56 --> CSRF token verified.
+INFO - 2023-09-28 19:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:29:14 --> CSRF token verified.
+INFO - 2023-09-28 19:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:29:14 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 212.
+ 1 APPPATH\Controllers\PrestamosController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:30:53 --> CSRF token verified.
+INFO - 2023-09-28 19:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:30:53 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 214.
+ 1 APPPATH\Controllers\PrestamosController.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:33:05 --> CSRF token verified.
+INFO - 2023-09-28 19:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:33:05 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 212.
+ 1 APPPATH\Controllers\PrestamosController.php(212): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 212)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:36:40 --> CSRF token verified.
+INFO - 2023-09-28 19:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:36:40 --> Undefined array key "numero_cuota"
+in APPPATH\Controllers\PrestamosController.php on line 214.
+ 1 APPPATH\Controllers\PrestamosController.php(214): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "numero_cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 214)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('8')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:42:40 --> CSRF token verified.
+INFO - 2023-09-28 19:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:43:10 --> CSRF token verified.
+INFO - 2023-09-28 19:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:43:45 --> CSRF token verified.
+INFO - 2023-09-28 19:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 19:43:45 --> Too few arguments to function App\Controllers\PrestamosController::enviarCorreo(), 0 passed in C:\xampp\htdocs\prestamos\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\PrestamosController.php on line 247.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->enviarCorreo()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 19:44:20 --> CSRF token verified.
+INFO - 2023-09-28 19:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:52:56 --> CSRF token verified.
+INFO - 2023-09-28 19:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 19:53:15 --> CSRF token verified.
+INFO - 2023-09-28 19:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:00:24 --> CSRF token verified.
+INFO - 2023-09-28 20:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:01:03 --> CSRF token verified.
+INFO - 2023-09-28 20:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:01:03 --> Too few arguments to function App\Controllers\PrestamosController::enviarCorreo(), 0 passed in C:\xampp\htdocs\prestamos\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\PrestamosController.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->enviarCorreo()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:01:46 --> CSRF token verified.
+INFO - 2023-09-28 20:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:01:46 --> Too few arguments to function App\Controllers\PrestamosController::enviarCorreo(), 0 passed in C:\xampp\htdocs\prestamos\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\PrestamosController.php on line 235.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->enviarCorreo()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:02:12 --> CSRF token verified.
+INFO - 2023-09-28 20:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:10:19 --> CSRF token verified.
+INFO - 2023-09-28 20:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:10:19 --> Undefined array key "cuota"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('12')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:16:16 --> CSRF token verified.
+INFO - 2023-09-28 20:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:16:16 --> Undefined array key "cuota"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('12')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:18:40 --> CSRF token verified.
+INFO - 2023-09-28 20:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:18:40 --> Undefined array key "cuota"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('12')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:18:52 --> CSRF token verified.
+INFO - 2023-09-28 20:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:18:52 --> Undefined array key "cuota"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:19:10 --> CSRF token verified.
+INFO - 2023-09-28 20:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 20:19:10 --> Undefined array key "cuota"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cuota"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('13')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 20:22:53 --> CSRF token verified.
+INFO - 2023-09-28 20:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:24:43 --> CSRF token verified.
+INFO - 2023-09-28 20:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:27:52 --> CSRF token verified.
+INFO - 2023-09-28 20:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:28:29 --> CSRF token verified.
+INFO - 2023-09-28 20:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 20:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:05:50 --> CSRF token verified.
+INFO - 2023-09-28 21:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:17:23 --> CSRF token verified.
+INFO - 2023-09-28 21:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 21:17:23 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('17')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 21:17:39 --> CSRF token verified.
+INFO - 2023-09-28 21:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:46 --> CSRF token verified.
+INFO - 2023-09-28 21:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:25:09 --> CSRF token verified.
+INFO - 2023-09-28 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:27:17 --> CSRF token verified.
+INFO - 2023-09-28 21:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:43:58 --> CSRF token verified.
+INFO - 2023-09-28 21:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:50:13 --> CSRF token verified.
+INFO - 2023-09-28 21:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 21:50:14 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('19')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 21:51:08 --> CSRF token verified.
+INFO - 2023-09-28 21:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:51:41 --> CSRF token verified.
+INFO - 2023-09-28 21:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:52:26 --> CSRF token verified.
+INFO - 2023-09-28 21:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:54:37 --> CSRF token verified.
+INFO - 2023-09-28 21:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 21:54:37 --> Undefined array key "correo"
+in APPPATH\Controllers\PrestamosController.php on line 210.
+ 1 APPPATH\Controllers\PrestamosController.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "correo"', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 210)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('22')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 21:57:27 --> CSRF token verified.
+INFO - 2023-09-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 21:59:10 --> CSRF token verified.
+INFO - 2023-09-28 21:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:00:12 --> CSRF token verified.
+INFO - 2023-09-28 22:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:04:59 --> CSRF token verified.
+INFO - 2023-09-28 22:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:07:33 --> CSRF token verified.
+INFO - 2023-09-28 22:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-28 22:07:33 --> Undefined variable $consulta
+in APPPATH\Controllers\PrestamosController.php on line 228.
+ 1 APPPATH\Controllers\PrestamosController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consulta', 'C:\\xampp\\htdocs\\prestamos\\app\\Controllers\\PrestamosController.php', 228)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\PrestamosController->update('24')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrestamosController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-28 22:08:15 --> CSRF token verified.
+INFO - 2023-09-28 22:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-28 22:10:25 --> CSRF token verified.
+INFO - 2023-09-28 22:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

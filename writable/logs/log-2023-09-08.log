@@ -1,0 +1,286 @@
+INFO - 2023-09-08 18:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 18:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 18:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 18:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 19:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:02:32 --> CSRF token verified.
+INFO - 2023-09-08 20:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:47:28 --> CSRF token verified.
+INFO - 2023-09-08 20:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:55:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:55:23 --> CSRF token verified.
+INFO - 2023-09-08 20:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 20:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:12:55 --> CSRF token verified.
+INFO - 2023-09-08 21:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:15:32 --> CSRF token verified.
+INFO - 2023-09-08 21:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:05 --> CSRF token verified.
+INFO - 2023-09-08 21:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:39 --> CSRF token verified.
+INFO - 2023-09-08 21:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:16:51 --> CSRF token verified.
+INFO - 2023-09-08 21:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:18:46 --> CSRF token verified.
+INFO - 2023-09-08 21:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:19:56 --> CSRF token verified.
+ERROR - 2023-09-08 21:19:56 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 21:19:56 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694225996.\', \'domicilio_1694225996.\', \'garantia_1694225996.\', \'cliente_1694225996.\', \'2023-09-08 21:19:56\', \'2023-09-08 21:19:56\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694225996.\', \'domicilio_1694225996.\', \'garantia_1694225996.\', \'cliente_1694225996.\', \'2023-09-08 21:19:56\', \'2023-09-08 21:19:56\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694225996.\', \'domicilio_1694225996.\', \'garantia_1694225996.\', \'cliente_1694225996.\', \'2023-09-08 21:19:56\', \'2023-09-08 21:19:56\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 21:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:20:32 --> CSRF token verified.
+ERROR - 2023-09-08 21:20:32 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 21:20:32 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'848998\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226032.\', \'domicilio_1694226032.\', \'garantia_1694226032.\', \'cliente_1694226032.\', \'2023-09-08 21:20:32\', \'2023-09-08 21:20:32\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'848998\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226032.\', \'domicilio_1694226032.\', \'garantia_1694226032.\', \'cliente_1694226032.\', \'2023-09-08 21:20:32\', \'2023-09-08 21:20:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'848998\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226032.\', \'domicilio_1694226032.\', \'garantia_1694226032.\', \'cliente_1694226032.\', \'2023-09-08 21:20:32\', \'2023-09-08 21:20:32\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 21:20:50 --> CSRF token verified.
+ERROR - 2023-09-08 21:20:50 --> mysqli_sql_exception: Duplicate entry '' for key 'telefono' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 21:20:50 --> Duplicate entry '' for key 'telefono'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'8498498\', \'87\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226050.\', \'domicilio_1694226050.\', \'garantia_1694226050.\', \'cliente_1694226050.\', \'2023-09-08 21:20:50\', \'2023-09-08 21:20:50\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'8498498\', \'87\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226050.\', \'domicilio_1694226050.\', \'garantia_1694226050.\', \'cliente_1694226050.\', \'2023-09-08 21:20:50\', \'2023-09-08 21:20:50\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'8498498\', \'87\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694226050.\', \'domicilio_1694226050.\', \'garantia_1694226050.\', \'cliente_1694226050.\', \'2023-09-08 21:20:50\', \'2023-09-08 21:20:50\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 21:21:28 --> CSRF token verified.
+INFO - 2023-09-08 21:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:27:42 --> CSRF token verified.
+INFO - 2023-09-08 21:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:29:30 --> CSRF token verified.
+INFO - 2023-09-08 21:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:37:41 --> CSRF token verified.
+INFO - 2023-09-08 21:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:39:42 --> CSRF token verified.
+INFO - 2023-09-08 21:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:43:38 --> CSRF token verified.
+INFO - 2023-09-08 21:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:45:29 --> CSRF token verified.
+INFO - 2023-09-08 21:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:49:21 --> CSRF token verified.
+INFO - 2023-09-08 21:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:50:34 --> CSRF token verified.
+ERROR - 2023-09-08 21:50:34 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 21:50:34 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227834.\', \'domicilio_1694227834.\', \'garantia_1694227834.\', \'cliente_1694227834.\', \'2023-09-08 21:50:34\', \'2023-09-08 21:50:34\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227834.\', \'domicilio_1694227834.\', \'garantia_1694227834.\', \'cliente_1694227834.\', \'2023-09-08 21:50:34\', \'2023-09-08 21:50:34\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227834.\', \'domicilio_1694227834.\', \'garantia_1694227834.\', \'cliente_1694227834.\', \'2023-09-08 21:50:34\', \'2023-09-08 21:50:34\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 21:51:11 --> CSRF token verified.
+ERROR - 2023-09-08 21:51:11 --> mysqli_sql_exception: Duplicate entry '' for key 'telefono' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 21:51:11 --> Duplicate entry '' for key 'telefono'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'98687576576765\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227871.\', \'domicilio_1694227871.\', \'garantia_1694227871.\', \'cliente_1694227871.\', \'2023-09-08 21:51:11\', \'2023-09-08 21:51:11\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'98687576576765\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227871.\', \'domicilio_1694227871.\', \'garantia_1694227871.\', \'cliente_1694227871.\', \'2023-09-08 21:51:11\', \'2023-09-08 21:51:11\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'jakob\', \'98687576576765\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694227871.\', \'domicilio_1694227871.\', \'garantia_1694227871.\', \'cliente_1694227871.\', \'2023-09-08 21:51:11\', \'2023-09-08 21:51:11\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 21:51:47 --> CSRF token verified.
+INFO - 2023-09-08 21:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 21:59:56 --> CSRF token verified.
+INFO - 2023-09-08 21:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:00:35 --> CSRF token verified.
+ERROR - 2023-09-08 22:00:36 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 22:00:36 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694228436.\', \'domicilio_1694228436.\', \'garantia_1694228436.\', \'cliente_1694228436.\', \'2023-09-08 22:00:36\', \'2023-09-08 22:00:36\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694228436.\', \'domicilio_1694228436.\', \'garantia_1694228436.\', \'cliente_1694228436.\', \'2023-09-08 22:00:36\', \'2023-09-08 22:00:36\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694228436.\', \'domicilio_1694228436.\', \'garantia_1694228436.\', \'cliente_1694228436.\', \'2023-09-08 22:00:36\', \'2023-09-08 22:00:36\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-09-08 22:40:20 --> CSRF token verified.
+INFO - 2023-09-08 22:56:46 --> CSRF token verified.
+INFO - 2023-09-08 22:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:57:08 --> CSRF token verified.
+INFO - 2023-09-08 22:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:57:50 --> CSRF token verified.
+INFO - 2023-09-08 22:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-08 22:58:07 --> CSRF token verified.
+ERROR - 2023-09-08 22:58:07 --> mysqli_sql_exception: Duplicate entry '' for key 'num_identidad' in C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\prestamos\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\prestamos\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\prestamos\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\prestamos\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\prestamos\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\prestamos\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\prestamos\app\Controllers\ClientesController.php(113): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+#9 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+#10 C:\xampp\htdocs\prestamos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\prestamos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-08 22:58:07 --> Duplicate entry '' for key 'num_identidad'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694231887.\', \'domicilio_1694231887.\', \'garantia_1694231887.\', \'cliente_1694231887.\', \'2023-09-08 22:58:07\', \'2023-09-08 22:58:07\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694231887.\', \'domicilio_1694231887.\', \'garantia_1694231887.\', \'cliente_1694231887.\', \'2023-09-08 22:58:07\', \'2023-09-08 22:58:07\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'\', \'identificacion_1694231887.\', \'domicilio_1694231887.\', \'garantia_1694231887.\', \'cliente_1694231887.\', \'2023-09-08 22:58:07\', \'2023-09-08 22:58:07\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `clientes` (`identidad`, `num_identidad`, `nombre`, `apellido`, `telefono`, `correo`, `direccion`, `nombre_referencia`, `direccion_referencia`, `telefono_referencia`, `foto_identificacion`, `foto_domicilio`, `foto_garantia`, `foto_cliente`, `created_at`, `updated_at`) VALUES (:identidad:, :num_identidad:, :nombre:, :apellido:, :telefono:, :correo:, :direccion:, :nombre_referencia:, :direccion_referencia:, :telefono_referencia:, :foto_identificacion:, :foto_domicilio:, :foto_garantia:, :foto_cliente:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\ClientesController.php(113): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ClientesController->create()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClientesController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
